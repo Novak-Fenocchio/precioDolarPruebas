@@ -5,10 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Animations -->
+    <link rel="stylesheet" href="css/magic.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
 
     <title>Precio Dolar</title>
   </head>
@@ -20,12 +23,12 @@
                 <span>Precio Dolar</span>
             </div>
             <div class="nav-items">
-                <span class="nav-item">Inicio</span>
-                <span class="nav-item">Contacto</span>
-                <span class="nav-item">Webmasters</span>
-                <span class="nav-item">Enlaces</span>
-                <span class="nav-item">Términos</span>
-                <span class="nav-item">Web amigas</span>
+                <a href="index.html"><span class="nav-item">Inicio</span></a>
+                <a href="contacto.html"><span class="nav-item">Contacto</span></a>
+                <a href=""><span class="nav-item">Webmasters</span></a>
+                <a href=""><span class="nav-item">Enlaces</span></a>
+                <a href=""><span class="nav-item">Términos</span></a>
+                <a href=""><span class="nav-item">Web amigas</span></a>
             </div>
         </nav>
         
@@ -33,30 +36,178 @@
     </header>
 
     <main>
-        <section class="section-welcome">
+        <section class="section-welcome" >
             <p class="paragraph-welcome">
                 <span>Bienvenido.</span> <br>   
                 En PrecioDolar.com.ar podrás encontrar la cotización del <strong>Dólar en Argentina</strong>.
                 El valor del Dólar es <strong>actualizado</strong> varias veces <strong>al día</strong> para garantizar la confiabilidad de la cifra.
             </p>
-            <div class="contenedor-precio">
+            <div class="contenedor-precio magictime puffIn">
                 <div class="precioDolarPrincipal">
                     <div class="tabla-precio">
                         <span class="tabla-titulo">Precio del dólar hoy: 15/2/21</span>
                         <h4 class="tipo-precio">COMPRA: <span class="precio-numero">87.45</span></h4>
                         <br>
-                        <h4 class="tipo-precio">COMPRA: <span class="precio-numero">87.45</span></h4>
+                        <h4 class="tipo-precio venta">VENTA: <span class="precio-numero">87.45</span></h4>
                     </div>
                 </div>
                 <span class="fecha-actualizado">Actualizado: 16:15hs</span>
             </div>
         </section>
+
+        <section class="contenedor-articulos">
+          <div class="sombreado">
+            <article class="articulo-conversor">  
+                <h3>Conversor Online</h3>
+                <p>
+                    Utiliza este conversor para convertir rápidamente de pesos a dolares y viceversa,
+                    ya que este utiliza el precio del dólar actualizado de PrecioDolar.com.ar
+                </p>
+            
+                <div class="contenedor-convertidores">
+                    <div class="conversor wow animate__animated animate__fadeIn">
+                        <h5>De dólares a pesos</h5>
+                        <span for="">Dólares</span>
+                        <br>
+                        <input type="number" placeholder="400">
+                        <br>
+                        <span for="">Pesos</span>
+                        <br>
+                        <input type="number" placeholder="250"> 
+                        <br>
+                        <div class="Container-calcular-conversor">
+                            <button class="btn-verde calcular-conversor">Calcular</button>
+                        </div>
+                    </div>    
+
+                    <div class="conversor wow animate__animated animate__fadeIn">
+                        <h5>De pesos a dólares</h5>
+                        <span for="">Pesos</span>
+                        <br>
+                        <input type="number" placeholder="335">
+                        <br>
+                        <span for="">Dólares</span>
+                        <br>
+                        <input type="number" placeholder="100"> 
+                        <br>
+                        <div class="Container-calcular-conversor">
+                            <button class="btn-verde calcular-conversor">Calcular</button>
+                        </div>
+                    </div> 
+              </div>
+            </article>
+
+            <article class="separador">
+                <hr>
+            </article>
+
+            <article class="grafico-semana">
+                <h3>Evolución del Dólar en los últimos 30 días</h3>
+                <img src="img/graph.png" class="wow animate__animated animate__fadeIn" alt="">
+            </article>
+
+            <article class="separador">
+                <hr>
+            </article>
+
+            <article class="precio-por-provincia">
+                <h3>Precio del dólar por provincia</h3>
+                <p class="parrafo-por-provincias">También consulta la cotización del Dólar de entidades cambiarias de las
+                    ciudades más importantes de Argentina.
+                </p>
+                <p class="lista-provincias">
+                   <a href="">Córdoba</a> - <a href="">Mar del Plata</a> - <a href="">Mendoza</a> - <a href="">La Plata</a> - <a href="">Rosario</a> - <a href="">Tucumán</a>
+                </p>
+    
+            </article>
+        </div>
+
+            <article class="herramientas">
+                <h2>Utiliza nuestro cotizador y conversor en tu Web Gratis!</h2>
+                <p class="prf1">Muestra a tus visitantes la cotización del Dólar y agrega un conversor online
+                    a tu Web con nuestras Herramientas para Webmasters.
+                </p>
+                <a href=""><button class="btn-verde">Ir a herramientas</button></a>
+            </article>
+      
+        <div class="sombreado">
+            <article class="divisas">
+                <h3>Consulta también otras divisas!</h3>
+                <div class="row contenedor-divisas">    
+                    <div class="col-lg-3 divisa wow animate__animated animate__zoomIn">
+                        <span>Dólar Blue</span>
+                        <div class="contenedor-divisa dolarBlue">
+                            <h5 class="">precioDolarBlue.com</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 divisa wow animate__animated animate__zoomIn">
+                        <span>Euro</span>
+                        <div class="contenedor-divisa euro">
+                            <h5 class="link-divisa">precioEuro.com</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 divisa wow animate__animated animate__zoomIn">
+                        <span>Euro Blue</span>
+                        <div class="contenedor-divisa euroblue">
+                            <h5 class="link-divisa">precioEuroBlue.com</h5>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 divisa wow animate__animated animate__zoomIn">
+                        <span>Oro</span>
+                        <div class="contenedor-divisa oro">
+                            <h5 class="link-divisa">precioOro.com</h5>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        </section>
     </main>
 
+    <footer class="row">
+        <div class="col-lg-4">
+            <div class="compartir">
+                <h3 class="bolder">Compartir:</h3>
+                <span class="twitter wow animate__animated animate__fadeIn">Twittear</span>
+                <span class="facebook wow animate__animated animate__fadeIn">Facebook</span>
+            </div>
+
+            <span class="copyright">
+                PrecioDolar.com.ar Copyright ® 2009. <br> 
+                Prohibida la Reproducción Parcial <br>
+                o Total de esta Web.
+            </span>
+        </div>
+        <div class="nav-footer col-lg-4">
+            <h3>Enlaces:</h3> 
+            <a href="index.html" class="nav-item-footer"><li>Inico</li></a> 
+            <a href="contacto.html" class="nav-item-footer"><li>Contacto</li></a> 
+            <a href="" class="nav-item-footer"><li>Webmasters</li></a> 
+            <a href="" class="nav-item-footer"><li>Enlaces</li></a> 
+            <a href="" class="nav-item-footer"><li>Términos</li></a>
+        </div>
+        <div class="col-lg-4 contactanos-footer">
+            <h3>Contáctanos</h3>
+            <p>Accedé al formulario <br>
+               para enviarnos un e-mail!
+            </p>
+          <a href="contacto.html"><button class="btn-negro accederFormulario wow animate__animated animate__fadeIn">Acceder</button></a>
+            <h3 class="bolder linkPrecioDolar">precioDolar.com</h3>
+        </div>
+    </footer>s
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="js/wow.js"></script>
+    <!-- Animaciones -->
+    <script>
+            new WOW().init();
+    </script>
+</body>
 </html>
