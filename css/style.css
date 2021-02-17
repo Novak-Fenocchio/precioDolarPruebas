@@ -86,7 +86,7 @@ nav {
 .nav-items {
   margin-top: 0.4vw;
 }
-.nav-items a {
+.links-nav {
   color: #89f7a6;
 }
 .nav-item {
@@ -97,6 +97,9 @@ nav {
 }
 .nav-item:hover {
   color: white;
+}
+.web-amigas {
+  color: #89f7a6;
 }
 /* Main */
 
@@ -612,4 +615,9 @@ form button {
 }
 .articulo-enlaces form textarea {
   height: 10vw;
+}
+/* Términos */
+.section-terminos {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 }
