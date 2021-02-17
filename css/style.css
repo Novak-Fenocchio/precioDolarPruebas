@@ -60,8 +60,12 @@ nav {
   color: #89f7a6;
   display: flex;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1vw 6vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-principal {
+  justify-content: space-between;
 }
 .nav-title {
   font-size: 2vw;
@@ -90,7 +94,7 @@ nav {
 
 /* Section welcome */
 .contenedor-bienvenida {
-  background-color: red;
+  background-color: white;
   color: white;
 }
 .contenedor-bienvenida h3 {
@@ -443,6 +447,47 @@ textarea {
   transition: all 0.3s;
   width: 100%;
 }
+
+form input,
+textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+form input,
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+form input,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+form input,
+textarea:-ms-input-placeholder {
+  color: white;
+}
+
+.input-contacto::-webkit-input-placeholder {
+  color: white;
+}
+
+.input-contacto:-moz-placeholder {
+  /* Firefox 18- */
+  color: white;
+}
+
+.input-contacto::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white;
+}
+
+.input-contacto:-ms-input-placeholder {
+  color: white;
+}
+
 form input:hover,
 textarea:hover {
   background: rgb(80, 80, 80);
@@ -474,4 +519,18 @@ form button {
 }
 .contenedor-parafo-contacto img {
   width: 100%;
+}
+/* Header secundario */
+.header-secundario {
+  background-color: #14772e;
+  color: white;
+  text-align: center;
+  padding-top: 0.5vw;
+}
+.header-secundario h2 {
+  font-weight: bolder;
+}
+.nav-secundaria {
+  display: flex;
+  text-align: center;
 }
