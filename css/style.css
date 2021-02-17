@@ -46,8 +46,16 @@ a:hover {
   margin-left: auto;
   width: 50%;
 }
+.prf2 {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
 .bolder {
   font-weight: bolder;
+}
+.lighter {
+  font-weight: lighter;
 }
 .marginAuto {
   margin-right: auto;
@@ -532,5 +540,53 @@ form button {
 }
 .nav-secundaria {
   display: flex;
+  text-align: center;
+}
+/* webmasters */
+.articulo-webmaster h3 {
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+}
+.articulo-webmaster p {
+  margin-bottom: 2vw;
+}
+.articulo-cotizadores {
+  text-align: center;
+}
+.articulo-cotizadores h4 {
+  margin-bottom: 1vw;
+}
+.cotizadorCubo {
+  background-color: #09521c;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+  width: 150px;
+}
+.contenedor-cotizadores {
+  margin-top: 1.5vw;
+  text-align: center;
+}
+.contenedor-cotizador {
+}
+.code-cotizador {
+  background-color: rgb(34, 34, 34);
+  border-radius: 10px;
+  color: white;
+  font-weight: lighter;
+  margin-top: 1vw;
+  text-align: left;
+  padding: 1vw 2vw 2vw 2vw;
+  word-wrap: break-word;
+}
+.code-conversor {
+  background-color: #89f7a6;
+  color: black;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.advertencia {
   text-align: center;
 }
