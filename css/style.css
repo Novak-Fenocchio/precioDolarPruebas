@@ -75,6 +75,13 @@ nav {
 .nav-principal {
   justify-content: space-between;
 }
+.nav-title a {
+  color: #89f7a6;
+  transition: all 0.3s;
+}
+.nav-title a:hover {
+  color: white;
+}
 .nav-title {
   font-size: 2vw;
   font-weight: bolder;
@@ -538,6 +545,9 @@ form button {
   text-align: center;
   padding-top: 0.5vw;
 }
+.header-secundario a h2 {
+  color: white;
+}
 .header-secundario h2 {
   font-weight: bolder;
 }
@@ -563,7 +573,9 @@ form button {
   margin-bottom: 1vw;
 }
 .cotizadorCubo {
-  background-color: #09521c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   margin-right: auto;
   height: 100px;
@@ -584,6 +596,9 @@ form button {
   text-align: left;
   padding: 1vw 2vw 2vw 2vw;
   word-wrap: break-word;
+}
+.conversorCubo {
+  background-color: green;
 }
 .code-conversor {
   background-color: #89f7a6;
