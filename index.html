@@ -13,15 +13,19 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='css/mobile.css'>
 
     <title>Precio Dolar</title>
   </head>
   <body>
 
+
+   <div class="background-mobiles">
+
     <header>
         <nav class="nav-principal">
             <div class="nav-title">
-                <a href="index.html"><span>Precio Dolar</span></a>
+                <a href="index.html"><span> <span class="mobile-lighter">Precio</span>Dólar</span></a>
             </div>
             <div class="nav-items">
                 <a href="index.html" class="links-nav"><span class="nav-item">Inicio</span></a>
@@ -30,8 +34,14 @@
                 <a href="enlaces.html" class="links-nav"><span class="nav-item">Intercabio de enlaces</span></a>
                 <a href="terminos.html" class="links-nav"><span class="nav-item">Términos</span></a>
             </div>
+            <div class="menu-mobile">
+                <div class="">
+                    <div class="bar-menu"></div>
+                    <div class="bar-menu"></div>
+                    <div class="bar-menu"></div>
+                </div>
+            </div>
         </nav>
-        
     </header>
 
     <main>
@@ -42,17 +52,21 @@
                 El valor del Dólar es <strong>actualizado</strong> varias veces <strong>al día</strong> para garantizar la confiabilidad de la cifra.
             </p>
             <div class="contenedor-precio magictime puffIn">
+
                 <div class="precioDolarPrincipal">
                     <div class="tabla-precio">
                         <span class="tabla-titulo">Precio del dólar hoy: 15/2/21</span>
-                        <h4 class="tipo-precio">COMPRA: <span class="precio-numero">87.45</span></h4>
+                        
+                        <h4 class="tipo-precio"><div class=""></div> <span class="container-compra-venta">COMPRA:</span> <span class="precio-numero">$87.45</span></h4>
                         <br>
-                        <h4 class="tipo-precio venta">VENTA: <span class="precio-numero">87.45</span></h4>
-                    </div>
+                        <h4 class="tipo-precio venta"><div class=""></div> <span class="container-compra-venta">VENTA:</span> <span class="precio-numero">$87.45</span></h4>
+                </div>
+
                 </div>
                 <span class="fecha-actualizado">Actualizado: 16:15hs</span>
             </div>
         </section>
+    </div>
 
         <section class="contenedor-articulos">
           <div class="sombreado">
@@ -66,14 +80,16 @@
                 <div class="contenedor-convertidores">
                     <div class="conversor wow animate__animated animate__fadeIn">
                         <h5>De dólares a pesos</h5>
-                        <span for="">Dólares</span>
-                        <br>
+                        <div class="container-label">
+                            <span for="">Dólares</span>
                         <input type="number" placeholder="400">
-                        <br>
-                        <span for="">Pesos</span>
-                        <br>
+                        </div>
+                        
+                        <div class="container-label">
+                            <span for="">Pesos</span>
                         <input type="number" placeholder="250"> 
-                        <br>
+                        </div>
+                        
                         <div class="Container-calcular-conversor">
                             <button class="btn-verde calcular-conversor">Calcular</button>
                         </div>
@@ -81,14 +97,16 @@
 
                     <div class="conversor wow animate__animated animate__fadeIn">
                         <h5>De pesos a dólares</h5>
-                        <span for="">Pesos</span>
-                        <br>
+                        <div class="container-label">
+                            <span for="">Pesos</span>
                         <input type="number" placeholder="335">
-                        <br>
-                        <span for="">Dólares</span>
-                        <br>
+                        </div>
+                        
+                        <div class="container-label">
+                            <span for="">Dólares</span>
                         <input type="number" placeholder="100"> 
-                        <br>
+                        </div>
+                        
                         <div class="Container-calcular-conversor">
                             <button class="btn-verde calcular-conversor">Calcular</button>
                         </div>
@@ -167,7 +185,7 @@
         </section>
     </main>
 
-    <footer class="row">
+    <footer class="">
         <div class="col-lg-4">
             <div class="compartir">
                 <h3 class="bolder">Compartir:</h3>
