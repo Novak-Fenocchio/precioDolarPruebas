@@ -202,9 +202,34 @@
     font-size: 5vw;
     font-weight: normal;
   }
-  .separador,
-  .herramientas,
-  .divisas {
+
+  .herramientas h2 {
+    margin-top: 3vw;
+    font-size: 7vw;
+  }
+  .herramientas p {
+    font-weight: lighter;
+    margin-top: 8vw;
+    width: 90%;
+  }
+  .herramientas a {
+    display: block;
+    margin-top: 16vw;
+    margin-bottom: 8vw;
+  }
+  .herramientas a button {
+    padding: 2vw 4vw;
+  }
+
+  .divisas h3 {
+    font-size: 6vw;
+    font-weight: bolder;
+  }
+  .divisas span {
+    font-size: 6vw;
+    margin-top: 2vw;
+  }
+  .separador {
     display: none;
   }
 
