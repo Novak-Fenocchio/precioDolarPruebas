@@ -274,7 +274,7 @@
   .header-secundario {
     display: flex;
     justify-content: space-between;
-    padding: 3vw 4vw 3vw 3vw;
+    padding: 2vw 4vw 2vw 3vw;
   }
   .nav-contenedor-secundaria {
     display: none;
@@ -296,24 +296,35 @@
   }
   .contenedor-contacto form input {
     font-size: 4vw;
+    padding: 1vw 2vw;
   }
   .contenedor-contacto form h5 {
+    font-weight: bold;
     margin-top: 6vw;
+    margin-bottom: 3vw;
   }
   .contenedor-contacto textarea {
     font-size: 4vw;
+    height: 40vw;
   }
   .enviar-navegador {
     display: none;
   }
+  .enviar-mobile {
+    text-align: center;
+  }
   .enviar-mobile button {
+    margin-top: 3vw;
     margin-bottom: 3vw;
-    width: 100%;
+    width: 80%;
   }
   .articulo-contacto {
     display: block;
     padding: 0;
-    padding-top: 2vw;
-    padding-bottom: 8vw;
+    padding-top: 4vw;
+    padding-bottom: 18vw;
+  }
+  form {
+    margin-top: 3vw;
   }
 }
