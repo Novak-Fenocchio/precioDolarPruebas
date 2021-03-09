@@ -232,8 +232,39 @@
   .separador {
     display: none;
   }
-
+  /* footer */
   footer {
+    padding-top: 3vw;
+  }
+  .compartir span {
+    font-size: 5vw;
+    margin-top: 3vw;
+    padding: 1.5vw 2.5vw;
+    width: 100%;
+  }
+  .copyright {
+    font-size: 3vw;
+  }
+  .copyright br {
     display: none;
+  }
+  .nav-footer {
+    margin-top: 3vw;
+    margin-bottom: 6vw;
+  }
+  .nav-item-footer li {
+    font-size: 4.5vw;
+    margin-left: 2vw;
+  }
+  .contactanos-footer {
+    margin-top: 2vw;
+  }
+  .contactanos-footer p {
+    font-size: 3vw;
+  }
+  .contactanos-footer button {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+    width: 60%;
   }
 }
