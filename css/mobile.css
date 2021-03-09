@@ -369,4 +369,7 @@
     text-align: left;
     width: 90%;
   }
+  .section-terminos h3 {
+    font-size: 7vw;
+  }
 }
