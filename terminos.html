@@ -13,23 +13,42 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Precio Dolar</title>
   </head>
   <body>
 
     <header class="header-secundario">
-        <a href="index.html"><h2>Precio Dolar</h2></a>
-        <nav class="nav-contenedor-secundaria">
-            <div class="nav-items nav-secundaria">
-                <a href="index.html" class="links-nav"><span class="nav-item">Inicio</span></a>
-                <a href="contacto.html" class="links-nav"><span class="nav-item">Contacto</span></a>
-                <a href="webmaster.html" class="links-nav"><span class="nav-item">Webmasters</span></a>
-                <a href="enlaces.html" class="links-nav"><span class="nav-item">Intercabio de enlaces</span></a>
-                <a href="terminos.html" class="links-nav"><span class="nav-item">Términos</span></a>
-            </div>
-        </nav>
-    </header>
+      <a href="index.html"><span> <span class="mobile-lighter">Precio</span>Dólar</span></a>
+      <div class="menu-mobile">
+          <div class="">
+              <div class="bar-menu bms"></div>
+              <div class="bar-menu bms"></div>
+              <div class="bar-menu bms"></div>
+          </div>
+      </div>
+      <nav class="nav-contenedor-secundaria">
+          <a href="index.html" class="links-nav"><span class="nav-item">Inicio</span></a>
+          <a href="contacto.html" class="links-nav"><span class="nav-item">Contacto</span></a>
+          <a href="webmaster.html" class="links-nav"><span class="nav-item">Webmasters</span></a>
+          <a href="enlaces.html" class="links-nav"><span class="nav-item">Intercabio de enlaces</span></a>
+          <a href="terminos.html" class="links-nav"><span class="nav-item">Términos</span></a>
+  </div>
+
+      </nav>
+
+      <div class="lateral-menu">
+        <div class="nav-items nav-items-mobile">
+            <a class="links-nav"><span class="nav-item logo-nav indice">Índice</span></a>
+            <a href="index.html" class="links-nav"><span class="nav-item">⚫  Inicio</span></a>
+            <a href="contacto.html" class="links-nav"><span class="nav-item">⚫  Contacto</span></a>
+            <a href="webmaster.html" class="links-nav"><span class="nav-item">⚫  Webmasters</span></a>
+            <a href="enlaces.html" class="links-nav"><span class="nav-item">⚫  Intercabio de enlaces</span></a>
+            <a href="terminos.html" class="links-nav"><span class="nav-item">⚫  Términos</span></a>
+            <a class="links-nav"><span class="nav-item logo-nav">precioDolar.com</span></a>
+        </div>
+    </div>
+  </header>
 
     <main>
 
@@ -93,5 +112,7 @@
     <script>
             new WOW().init();
     </script>
+        <script src="js/index.js"></script>
+
 </body>
 </html>
