@@ -306,7 +306,7 @@
     margin-bottom: 3vw;
   }
   .contenedor-contacto textarea,
-  .articulo-enlaces textarea {
+  .articulo-enlaces form textarea {
     font-size: 4vw;
     height: 40vw;
   }
@@ -366,6 +366,11 @@
     width: 90%;
   }
   .articulo-enlaces form {
+    text-align: left;
+    width: 90%;
+  }
+  .articulo-enlaces p {
+    margin-top: 5vw;
     text-align: left;
     width: 90%;
   }
