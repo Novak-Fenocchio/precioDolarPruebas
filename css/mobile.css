@@ -181,9 +181,9 @@
     font-size: 4vw;
     font-weight: bolder;
   }
-  .grafico-semana img {
+  /*   .grafico-semana img {
     width: 91%;
-  }
+  } */
   .precio-por-provincia {
     margin-top: 6vw;
   }
