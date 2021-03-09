@@ -327,4 +327,39 @@
   form {
     margin-top: 3vw;
   }
+  /* webmaster */
+  .articulo-webmaster h3 {
+    font-size: 6vw;
+    margin-top: 3vw;
+  }
+  .articulo-webmaster h4 {
+    font-size: 5vw;
+    font-weight: 400;
+  }
+  .articulo-webmaster p {
+    margin-top: 6vw;
+    width: 90%;
+  }
+  .boldMobile {
+    font-weight: bolder;
+  }
+  .cotizadorCubo {
+    margin: 4vw auto 4vw auto;
+  }
+  .code-cotizador {
+    width: 100%;
+  }
+  .cotizadorChico {
+    margin-right: 20vw;
+    text-align: left;
+  }
+  .cotizadorChico img {
+    width: 100%;
+  }
+  .code-conversor {
+    width: 90%;
+  }
+  .advertencia {
+    width: 90%;
+  }
 }
