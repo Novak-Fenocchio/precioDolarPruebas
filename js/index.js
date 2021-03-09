@@ -2,6 +2,7 @@ let hiddenMenu = false;
 
 $('.lateral-menu').hide();
 
+
 $('.menu-mobile').on('click', function(){
     hiddenMenu = !hiddenMenu;
 
