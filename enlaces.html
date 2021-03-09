@@ -13,23 +13,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/mobile.css">
     <title>Precio Dolar</title>
   </head>
   <body>
 
     <header class="header-secundario">
-        <a href="index.html"><h2>Precio Dolar</h2></a>
-        <nav class="nav-contenedor-secundaria">
-            <div class="nav-items nav-secundaria">
-                <a href="index.html" class="links-nav"><span class="nav-item">Inicio</span></a>
-                <a href="contacto.html" class="links-nav"><span class="nav-item">Contacto</span></a>
-                <a href="webmaster.html" class="links-nav"><span class="nav-item">Webmasters</span></a>
-                <a href="enlaces.html" class="links-nav"><span class="nav-item">Intercabio de enlaces</span></a>
-                <a href="terminos.html" class="links-nav"><span class="nav-item">Términos</span></a>
-            </div>
-        </nav>
-    </header>
+      <a href="index.html"><span> <span class="mobile-lighter">Precio</span>Dólar</span></a>
+      <div class="menu-mobile">
+          <div class="">
+              <div class="bar-menu bms"></div>
+              <div class="bar-menu bms"></div>
+              <div class="bar-menu bms"></div>
+          </div>
+      </div>
+      <nav class="nav-contenedor-secundaria">
+          <a href="index.html" class="links-nav"><span class="nav-item">Inicio</span></a>
+          <a href="contacto.html" class="links-nav"><span class="nav-item">Contacto</span></a>
+          <a href="webmaster.html" class="links-nav"><span class="nav-item">Webmasters</span></a>
+          <a href="enlaces.html" class="links-nav"><span class="nav-item">Intercabio de enlaces</span></a>
+          <a href="terminos.html" class="links-nav"><span class="nav-item">Términos</span></a>
+  </div>
+
+      </nav>
+  </header>
 
     <main>
 
@@ -42,18 +49,22 @@
                         </p>
                         <h5 class="lighter">Si quieres intercambiar enlaces con esta Web por favor contáctanos a través del formulario:</h5>
                         <form action="" class="row">
-                            
+                      
                             <div class="col-lg-6">
-                                <h5 for="">E-Mail</h5>
-                                <input type="email" class="input-contacto" placeholder="nombre@email.com"> <br>
-                                <h5 for="">Mensaje</h5>
+                            <h5 for="">E-Mail</h5>
+                            <input type="email" class="input-contacto" placeholder="nombre@email.com"> <br>
+                            <div class="enviar-navegador">
                                 <button class="btn-negro">Enviar</button>
                             </div>
-                            <div class="col-lg-6">
-                                <h5>Mensaje:</h5>
-                                <textarea class="form-mensaje" class="input-contacto" placeholder="Mensaje" cols="30" rows="10"></textarea> <br>
-                            </div>  
-                        </form>
+                          </div>
+                          <div class="col-lg-6">
+                              <h5>Mensaje:</h5>
+                              <textarea class="form-mensaje" class="input-contacto" placeholder="Mensaje" cols="30" rows="10"></textarea> <br>
+                        </div>
+                        <div class="col-lg-6 enviar-mobile">
+                            <button class="btn-negro">Enviar</button>
+                        </div>
+                        </form> 
                     </article>
             </div>
           </section>

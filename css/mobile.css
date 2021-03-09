@@ -294,16 +294,19 @@
   .contenedor-contacto {
     padding: 0;
   }
-  .contenedor-contacto form input {
+  .contenedor-contacto form input,
+  .articulo-enlaces form input {
     font-size: 4vw;
     padding: 1vw 2vw;
   }
-  .contenedor-contacto form h5 {
+  .contenedor-contacto form h5,
+  .articulo-enlaces form h5 {
     font-weight: bold;
     margin-top: 6vw;
     margin-bottom: 3vw;
   }
-  .contenedor-contacto textarea {
+  .contenedor-contacto textarea,
+  .articulo-enlaces textarea {
     font-size: 4vw;
     height: 40vw;
   }
@@ -360,6 +363,10 @@
     width: 90%;
   }
   .advertencia {
+    width: 90%;
+  }
+  .articulo-enlaces form {
+    text-align: left;
     width: 90%;
   }
 }
