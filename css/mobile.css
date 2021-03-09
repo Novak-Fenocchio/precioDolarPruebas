@@ -385,9 +385,9 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    left: 50vw;
+    left: 37vw;
     position: absolute;
-    width: 50vw;
+    width: 60vw;
     z-index: 1;
   }
   .nav-item {
@@ -398,5 +398,18 @@
     margin-bottom: 1vw;
     padding: 2vw 0vw;
     text-transform: capitalize;
+  }
+  .indice {
+    font-size: 5vw;
+  }
+  .emoji {
+    display: block;
+    font-size: 3vw;
+  }
+  .logo-nav {
+    color: #09521c;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: none;
   }
 }
