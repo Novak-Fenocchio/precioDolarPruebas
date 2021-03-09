@@ -280,11 +280,9 @@
     display: none;
   }
   .header-secundario a {
-    align-items: center;
     color: #89f7a6;
     display: flex;
     font-size: 9vw;
-    justify-content: center;
     font-weight: bolder;
   }
   .bms {
@@ -399,6 +397,9 @@
     padding: 2vw 0vw;
     text-transform: capitalize;
   }
+  .nav-item:hover {
+    color: #09521c;
+  }
   .indice {
     font-size: 5vw;
   }
@@ -411,5 +412,6 @@
     font-weight: bolder;
     text-align: center;
     text-transform: none;
+    width: 100%;
   }
 }
