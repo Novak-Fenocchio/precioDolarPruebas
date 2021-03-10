@@ -237,6 +237,7 @@ article {
   margin-right: 2vw;
   margin-top: 1vw;
   padding: 2vw 4vw;
+  width: 35%;
 }
 .conversor input {
   background-color: #89f7a6;
@@ -256,6 +257,9 @@ article {
 .calcular-conversor {
   margin-top: 0.8vw;
   width: 65%;
+}
+.container-label {
+  width: 100%;
 }
 /* Precio por provincia */
 .precio-por-provincia {
