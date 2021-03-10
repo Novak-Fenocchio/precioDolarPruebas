@@ -347,6 +347,8 @@ article {
 footer {
   background: rgb(34, 34, 34);
   color: white;
+  /*   display: grid;
+  grid-template-columns: repeat(3, 1fr); */
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   min-height: 30vh;
   padding: 2vw 5vw;
@@ -359,6 +361,7 @@ footer {
   font-size: 1.2vw;
   font-weight: bold;
 }
+
 .twitter {
   background: rgb(17, 108, 245);
   border-radius: 5px;
@@ -426,6 +429,15 @@ footer {
   margin-top: 1vw;
 }
 
+/* header secundario */
+.header-secundario > a span {
+  color: #89f7a6;
+  font-size: 3vw;
+  font-weight: bolder;
+}
+.header-secundario > a span .mobile-lighter {
+  font-weight: lighter;
+}
 /* Contacto */
 .articulo-contacto {
   color: black;
@@ -445,6 +457,9 @@ footer {
 .articulo-contacto h2 {
   font-weight: bolder;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.enviar-mobile {
+  display: none;
 }
 form {
   background: rgb(41, 41, 41);
@@ -527,6 +542,7 @@ form h5 {
 form button {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2vw;
   width: 100%;
 }
 .form-mensaje {
