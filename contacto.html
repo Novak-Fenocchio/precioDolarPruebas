@@ -61,18 +61,18 @@
                         <h2>Contacto</h2>
                     </div>  
 
-                    <form action="" class="row">
+                    <form action="enviarEmail.php" method="POST" class="row">
                       
                         <div class="col-lg-6">
                         <h5 for="">E-Mail</h5>
-                        <input type="email" class="input-contacto" placeholder="nombre@email.com"> <br>
+                        <input type="email" name='email' class="input-contacto" placeholder="nombre@email.com"> <br>
                         <div class="enviar-navegador">
                             <button class="btn-negro">Enviar</button>
                         </div>
                       </div>
                       <div class="col-lg-6">
                           <h5>Mensaje:</h5>
-                          <textarea class="form-mensaje" class="input-contacto" placeholder="Mensaje" cols="30" rows="10"></textarea> <br>
+                          <textarea class="form-mensaje" name='mensaje' class="input-contacto" placeholder="Mensaje" cols="30" rows="10"></textarea> <br>
                     </div>
                     <div class="col-lg-6 enviar-mobile">
                         <button class="btn-negro">Enviar</button>
